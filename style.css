@@ -412,6 +412,7 @@ h1, h2, p, a, button {
     width: 100%;
     height: auto; 
     z-index: 999;
+    display: none;
   }
 
   .navbar2 ul {
