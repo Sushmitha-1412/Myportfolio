@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Sushmitha Portfolio</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css"/>
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <div class="navbar-container">
+    <div class="navbar1"><h1>Portfolio</h1></div>
+     <div class="hamburger" onclick="toggleNavbar()">☰</div>
+  <div class="close" onclick="toggleNavbar()" style="display:none;">✖</div>
+   <div class="navbar2" id="navMenu">
+      <ul>
+        <li><a href="#home" onclick="toggleNavbar()">Home</a></li>
+        <li><a href="#about" onclick="toggleNavbar()">About</a></li>
+        <li><a href="#skills" onclick="toggleNavbar()">Skills</a></li>
+        <li><a href="#projects" onclick="toggleNavbar()">Projects</a></li>
+        <li><a href="#contact" onclick="toggleNavbar()">Contact</a></li>
+      </ul>
+    </div>
+  </div>
+  <div class="home-container" id="home">
+    <div class="home1">
+      <h1 class="hi">Hi, I am</h1>
+      <h2>Sushmitha R</h2>
+      <h2>I'm a <span class="web">Web Developer</span></h2>
+      <p>Building interactive and elegant websites with modern web technologies.</p>
+      <div class="contact-info">
+        <a href="https://github.com/Sushmitha-1412" target="_blank">
+          <span><i class="fab fa-github"></i></span>
+        </a>
+        <a href="https://www.linkedin.com/in/sushmitha-rajenthiran-8559b0269" target="_blank">
+          <span><i class="fab fa-linkedin-in"></i></span>
+        </a>
+        <a href="mailto:sushmitharsushmitha@gmail.com">
+          <span><i class="fas fa-envelope"></i></span>
+       </a>
+      </div>
+
+      <a href="cv.pdf" download><button>Download CV <span><i class="fas fa-download"></i></span></button></a>
+    </div>
+    <div class="home2">
+      <img src="sushmir.jpeg" alt="Sushmitha Image" />
+    </div>
+  </div>
+
+  <div class="about-container" id="about">
+    <h1>About <span class="me">Me</span></h1>
+    <p>
+      I'm Sushmitha, a creative and detail-oriented Web Developer with a strong interest in building responsive, modern websites.
+      I specialize in Frontend Development using <span class="me">React.js, HTML, CSS, and JavaScript,</span> focusing on clean design and smooth user experience.
+      I'm also familiar with backend tools like <span class="me">Node.js, Express.js, Sequelize, and MySQL,</span> giving me a full understanding of how web applications work.
+      I'm seeking a Frontend Developer role where I can grow and collaborate to bring ideas to life.
+    </p>
+  </div>
+
+  <div class="skills-container" id="skills">
+    <h1 class="technical">Technical <span class="me">Skills</span></h1>
+    <div class="skills1">
+      <div class="skill-box"><img src="html.png" alt="HTML" /></div>
+      <div class="skill-box"><img src="css1.png" alt="CSS" /></div>
+      <div class="skill-box"><img src="js.png" alt="JavaScript" /></div>
+      <div class="skill-box"><img src="react.png" alt="React" /></div>
+      <div class="skill-box"><img src="node.png" alt="Node.js" /></div>
+      <div class="skill-box"><img src="mysql.png" alt="MySQL" /></div>
+      <div class="skill-box"><img src="seq.png" alt="Sequelize" /></div>
+      <div class="skill-box"><img src="ex1.jpg" alt="Express" /></div>
+      <div class="skill-box"><img src="tailwind.webp" alt="Tailwind" /></div>
+      <div class="skill-box"><img src="python.png" alt="Python" /></div>
+    </div>
+  </div>
+
+  <div class="project-container">
+    <h1 class="project-head" id="projects">My <span class="me">Projects</span></h1>
+    <div class="project-container1">
+    <div class="project1">
+      <img src="shopping.jpg" alt="E-commerce" />
+      <h1>E-Commerce Website</h1>
+      <p>Built a shopping website using HTML, CSS, React, and Node.js with secure login/signup and product management.</p>
+      <a href="https://ecommerce-frontend-beige-one.vercel.app/" target="_blank">Visit Website</a>
+    </div>
+    <div class="project2">
+      <img src="banking.webp" alt="Banking" />
+      <h1>Banking Project</h1>
+      <p>Created a banking app with features like money transfer, loan request, and account closure. Made with HTML, CSS, and JS.</p>
+      <p>Login: Sushmi/1111, Thiya/2222, Saran/333</p>
+      <a href="https://banking-project-liart.vercel.app/" target="_blank">Visit Website</a>
+    </div>
+  </div>
+  </div>
+
+  <div class="contact-section" id="contact">
+    <h2>Contact <span>Me</span></h2>
+    <form class="contact-form">
+      <div class="input-row">
+        <input type="text" placeholder="Enter Your Name" />
+        <input type="email" placeholder="Enter Your Mail Id" />
+      </div>
+      <div class="input-row">
+        <input type="text" placeholder="Enter Your Mobile Number" />
+        <input type="text" placeholder="Enter Subject Of The Mail" />
+      </div>
+      <textarea class="text" placeholder="Enter Your Message Here..." rows="6"></textarea>
+      <button type="submit">Submit</button>
+    </form>
+  </div>
+
+</body>
+</html>
