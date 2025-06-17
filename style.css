@@ -294,7 +294,7 @@ h1, h2, p, a, button {
   text-align: center;
   color: #fff;
   height: 100%;
-  width: 100%;
+   width: 100%;
    background-color: #eaf2f9;
 }
 .contact-section h2 {
@@ -549,6 +549,7 @@ h1, h2, p, a, button {
 .skills-container {
   width: 100%;
   height: 100%;
+  background-color: #eaf2f9;
 }
 .skills-container h1 {
   font-size: 36px;
