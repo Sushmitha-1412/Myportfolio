@@ -568,7 +568,12 @@ h1, h2, p, a, button {
   text-align: center;
   width: 100%;
 }
-
+#about {
+  scroll-margin-top: 100px;  
+}
+#home {
+  scroll-margin-top: 100px;  
+}
 .about-container p {
   width: 100%;
   text-align: left;
